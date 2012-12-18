@@ -9,4 +9,8 @@
 	// $('#player').contents().find('body').clone().html().appendTo('.ext-wrap');
 	// Remove some elements.
 	$('.table0, .el7 td:last-child, div#fb-root').remove();
+	
+	// SF
+	$('script, #banner_container, h4, #ad_footer, #ad_overlay, .el14, .el12, .el11, .el10, .el3, h1, .el2, .el4, .el9, br, .el27').remove();
+
 })(jQuery);
