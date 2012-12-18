@@ -1,0 +1,26 @@
+{
+  "name": "First Row Enhancement Kit",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "A Google Chrome extension that improves the watching experience on www.thefirstrow.eu.",
+  "browser_action": {
+    "default_title": "First Row Enhancement Kit"
+  },
+  "permissions": [
+    "http://www.thefirstrow.eu/*",
+    "http://thefirstrow.eu/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": 
+			  ["http://www.thefirstrow.eu/*",
+         "http://thefirstrow.eu/*"
+				 ],
+      "js": [
+			  "jquery-1.8.2.min.js", 
+				"script.js"
+				],
+      "css": ["style.css"]
+    }
+  ]
+}

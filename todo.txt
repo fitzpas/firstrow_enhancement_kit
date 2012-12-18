@@ -1,0 +1,6 @@
+Todo
+
+ * Figure out exactly how we're going to make this work properly.
+  - Most of the streams are not hosted on First Row.
+	- This means that we can't access elements from within the iframe
+	  using javascript.
